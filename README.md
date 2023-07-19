@@ -90,3 +90,6 @@ Github-pages does not support the scholar plugin. Hence, the site is first built
 - [ ] add favicon
 - [ ] check and adapt properties of persons
 - [ ] remove template content (posts and such)
+- [ ] limit number of authors per bibentry (10? SIGIR forum paper is quite long)
+- [X] add impressum
+- [ ] fix bibtex encoding errors e.g., "Fr öbe"

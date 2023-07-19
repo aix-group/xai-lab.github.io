@@ -37,14 +37,14 @@
   title: M.Sc.
   mail: ['osman.koras@uni-due.de']
   roles: ['extphd']
-  interests: ['Natural Language Processing, Faithfulness']
+  interests: ['Natural Language Processing', 'Faithfulness']
   img: Koras-Osman.jpg
   
 - name: Phuong Quynh Le
   title: M.Sc.
   mail: ['phuongquynh.le@uni-due.de']
   roles: ['extphd']
-  interests: ['Explainable AI, Machine Learning']
+  interests: ['Explainable AI', ' Machine Learning']
   img: Phuong-Quynh-Le.jpg
 
 - name: Meijie Li
@@ -111,7 +111,14 @@
   interests: 
   img: 
 
-- name: Meike Nauta
+- name: Dr. Meike Nauta
   roles: ['alumnus']
   interests: ['Explainable AI', 'Computer Vision']
   img: Nauta-Meike.jpg
+  current: 
+
+- name: Dr. Sultan Imangaliyev
+  roles: ['alumnus']
+  interests: ['Data Science', 'Bioinformatics']
+  img: Imangaliyev-Sultan.jpg
+  current: Data Scientiest at In Ovo

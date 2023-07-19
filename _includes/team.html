@@ -48,7 +48,10 @@ there might be something wrong with settings in the editor
          Phone: +{{ person.phone }} <br />
        {% endif %}
        {% if person.interests.size > 0 %}
-         Interests: {{ person.interests | array_to_sentence_string }}
+         Interests: {{ person.interests | array_to_sentence_string }} <br />
+       {% endif %}
+       {% if person.current %}
+         Current Position: {{ person.current }}
        {% endif %}
     </p></div></div>
  {% endfor %}
