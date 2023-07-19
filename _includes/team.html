@@ -12,7 +12,7 @@ there might be something wrong with settings in the editor
 {% when "phd" %}
 <h3>Research Assistants</h3>
 {% when "extphd" %}
-<h3>External PhD Candidates</h3>
+<h3>External Researchers</h3>
 {% when "shk" %}
 <h3>Student Assistants</h3>
 {% when "alumnus" %}
@@ -32,8 +32,9 @@ there might be something wrong with settings in the editor
   </div>
   {% endif %}
   <div class="person-image-container right">
-  <h5>{{ person.title}} {{ person.name }}{% if role.name == "phd" %}, Ph.D. Candidate{% endif %}{% if person.position-special %}, {{ person.position-special }}{% endif %}</h5>
+  <h5>{{ person.title}} {{ person.name }}{% if role.name == "phd" or role.name == "extphd" %}, Ph.D. Candidate {% endif %}</h5>
   <p>
+       {% if person.position-special %} {{ person.position-special }}<br />{% endif %} 
        {% if person.mail %}
          {% if person.mail.first %}
            {% for m in person.mail %}
@@ -48,10 +49,13 @@ there might be something wrong with settings in the editor
          Phone: +{{ person.phone }} <br />
        {% endif %}
        {% if person.interests.size > 0 %}
-         Interests: {{ person.interests | array_to_sentence_string }} <br />
+         Topics: {{ person.interests | array_to_sentence_string }} <br />
        {% endif %}
        {% if person.current %}
-         Current Position: {{ person.current }}
+         Current Position: {{ person.current }}<br />
+       {% endif %}
+       {% if role.name == "extphd" %}
+        Organisation: {{ person.organisation }}<br />
        {% endif %}
     </p></div></div>
  {% endfor %}

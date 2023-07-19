@@ -54,10 +54,10 @@ Optional fields:
 - img - first, upload an image to [`/img/people`](/img/people), then provide the filename here, e.g. `Muster-Hilde.jpg`
 
 #### Remove Member
-Simply delete the corresponding entry from the file
+Simply delete the corresponding entry from the file.
 
 #### Modify Member
-Edit the entry as needed
+Edit the entry as needed.
 
 
 
@@ -68,18 +68,17 @@ Replace `references.bib` at [`/_bibliography`](/_bibliography) with your latest 
 Make sure that exclusively either `doi` or `url` are set for an entry (not both). If both are available, `doi` is to prefer. You may use the export options of your favorite reference manager to remove the unnecessary one, e.g. [Zotero](https://www.zotero.org) with [Better Bibtex](https://retorque.re/zotero-better-bibtex/).
 
 # Devs
-The site is built with [jekyll](https://jekyllrb.com), [scholar](https://github.com/inukshuk/jekyll-scholar)-plugin and [minima](https://github.com/jekyll/minima) theme.
+The site is built with [jekyll](https://jekyllrb.com), [scholar](https://github.com/inukshuk/jekyll-scholar)-plugin and [minimal mistakes](https://mmistakes.github.io/minimal-mistakes/) theme.
 ## Run locally
 1. Install [Ruby](https://www.ruby-lang.org)
 2. Install [Bundler](https://bundler.io) `gem install bundler`
 3. Checkout repo, install dependencies in the repo with `bundle install`
 4. Run with `bundle exec jekyll serve`, the site is accessible at "http://127.0.0.1:4000/" (note the trailing `/`)
 
-## Deployment
-Github-pages does not support the scholar plugin. Hence, the site is first built via a github action at `/.github/workflows/build.yml` from the main branch. This action then pushes the ready-to-deploy build artefact to the gh-pages branch for deployment.
+
 
 ## Theme customization
-`/assets/main.scss` loads the minima theme and customization in `/_sass/_ikim.scss`
+`/assets/main.scss` loads the main theme configuration and holds custom adaptations.
 
 ## Todo
 - [ ] add author version PDF support
@@ -92,4 +91,4 @@ Github-pages does not support the scholar plugin. Hence, the site is first built
 - [ ] remove template content (posts and such)
 - [ ] limit number of authors per bibentry (10? SIGIR forum paper is quite long)
 - [X] add impressum
-- [ ] fix bibtex encoding errors e.g., "Fr öbe"
+- [x] fix bibtex encoding errors e.g., "Fr öbe"

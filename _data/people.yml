@@ -4,14 +4,21 @@
   roles: ['head']
   img: Seifert-Christin.jpg
 
+- name: Bopper Katrin 
+  mail: bopper@mathematik.uni-marburg.de
+  phone:  +49 6421 2821585
+  roles: ['admin']
+  img: Bopper-Katrin.jpg
+
 - name: Jörg Schlötterer
   title: Dr.
   mail: ['joerg.schloetterer@uni-marburg.de']
   roles: ['postdoc']
+  position-special: Hessian.AI Junior Research Group Lead
   interests: ['Knowledge Integration', 'Natural Language Processing', 'Machine Learning']
   img: Schloetterer-Joerg.jpg
 
-- name: Nguyen Bach Van
+- name: Nguyen Van Bach
   title: M.Sc.
   mail: ['vanbach.nguyen@uni-marburg.de']
   roles: ['phd']
@@ -23,7 +30,7 @@
   mail: ['olufunke.sarumi@uni-marburg.de']
   roles: ['phd']
   interests: ['Natural Language Processing']
-  img: 
+  img: Sarumi-Olufunke.jpg
 
 - name: Paul Youssef
   title: M.Sc.
@@ -32,6 +39,13 @@
   interests: ['Natural Language Processing']
   img: Youssef-Paul.jpg
 
+- name: Chakraborty Tanmay
+  title: M.Sc.
+  mail: 
+  roles: ['extphd']
+  interests: ['Explainable AI', 'Bayesian Optimization']
+  img: Chakraborty-Tanmay.jpg
+  organisation: Continental AG
 
 - name: Osman Koras
   title: M.Sc.
@@ -39,6 +53,7 @@
   roles: ['extphd']
   interests: ['Natural Language Processing', 'Faithfulness']
   img: Koras-Osman.jpg
+  organisation: University of Duisburg-Essen
   
 - name: Phuong Quynh Le
   title: M.Sc.
@@ -46,6 +61,7 @@
   roles: ['extphd']
   interests: ['Explainable AI', ' Machine Learning']
   img: Phuong-Quynh-Le.jpg
+  organisation: University of Duisburg-Essen
 
 - name: Meijie Li
   title: M.Sc.
@@ -53,6 +69,7 @@
   roles: ['extphd']
   interests: ['Explainable AI', 'Machine Learning for Medicine']
   img: Li-Meijie.jpg
+  organisation: University of Duisburg-Essen, RTG WisperMed
 
 - name: Shreyasi Pathak
   title: M.Sc.
@@ -60,6 +77,7 @@
   roles: ['extphd']
   interests:  ['Explainable AI', 'Machine Learning for Medicine']
   img: Pathak-Shreyasi.jpg
+  organisation: University of Twente
 
 
 - name: Jan Trienes
@@ -68,6 +86,7 @@
   roles: ['extphd']
   interests: ['Natural Language Processing', 'Information Retrieval']
   img: Trienes-Jan.jpg
+  organisation: University of Duisburg-Essen
 
 - name: Celina Bandowski
   mail: celina.bandowski@uk-essen.de
