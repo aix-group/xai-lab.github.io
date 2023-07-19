@@ -4,7 +4,7 @@ title: Publications
 ---
 <input id="filter" type="text" size=20 placeholder="filter..." />
 <div class="bib">
-{% bibliography -f references.bib --remove_duplicates %}
+{% bibliography -f references.bib -q @*[year>=2018] --remove_duplicates %}
 </div>
 
 <script type="text/javascript">

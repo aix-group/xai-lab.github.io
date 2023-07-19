@@ -107,7 +107,8 @@ plugins: ['jekyll/scholar']
 scholar:
   source: /_bibliography
 #  repository: /pdfs
-  style: chicago-fullnote-bibliography
+#  style: chicago-fullnote-bibliography
+  style: apa
   group_by: year
   group_order: descending
   sort_by: year,month
