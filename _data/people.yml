@@ -1,0 +1,117 @@
+- name: Prof. Dr. Christin Seifert
+  mail: christin.seifert@uni-marburg.de
+  phone: +49 6421 6978383
+  roles: ['head']
+  img: Seifert-Christin.jpg
+
+- name: Jörg Schlötterer
+  title: Dr.
+  mail: ['joerg.schloetterer@uni-marburg.de']
+  roles: ['postdoc']
+  interests: ['Knowledge Integration', 'Natural Language Processing', 'Machine Learning']
+  img: Schloetterer-Joerg.jpg
+
+- name: Nguyen Bach Van
+  title: M.Sc.
+  mail: ['vanbach.nguyen@uni-marburg.de']
+  roles: ['phd']
+  interests: ['Natural Language Processing']
+  img: Nguyen-Bach-Van.jpg
+
+- name: Olufunke Sarumi
+  title: M.Sc.
+  mail: ['olufunke.sarumi@uni-marburg.de']
+  roles: ['phd']
+  interests: ['Natural Language Processing']
+  img: 
+
+- name: Paul Youssef
+  title: M.Sc.
+  mail: ['paul.youssef@uni-marburg.de']
+  roles: ['phd']
+  interests: ['Natural Language Processing']
+  img: Youssef-Paul.jpg
+
+
+- name: Osman Koras
+  title: M.Sc.
+  mail: ['osman.koras@uni-due.de']
+  roles: ['extphd']
+  interests: ['Natural Language Processing, Faithfulness']
+  img: Koras-Osman.jpg
+  
+- name: Phuong Quynh Le
+  title: M.Sc.
+  mail: ['phuongquynh.le@uni-due.de']
+  roles: ['extphd']
+  interests: ['Explainable AI, Machine Learning']
+  img: Phuong-Quynh-Le.jpg
+
+- name: Meijie Li
+  title: M.Sc.
+  mail: ['meijie.li@uni-due.de']
+  roles: ['extphd']
+  interests: ['Explainable AI', 'Machine Learning for Medicine']
+  img: Li-Meijie.jpg
+
+- name: Shreyasi Pathak
+  title: M.Sc.
+  mail: ['shreyasi.pathak@utwente.nl']
+  roles: ['extphd']
+  interests:  ['Explainable AI', 'Machine Learning for Medicine']
+  img: Pathak-Shreyasi.jpg
+
+
+- name: Jan Trienes
+  title: M.Sc.
+  mail: ['jan.trienes@uni-due.de']
+  roles: ['extphd']
+  interests: ['Natural Language Processing', 'Information Retrieval']
+  img: Trienes-Jan.jpg
+
+- name: Celina Bandowski
+  mail: celina.bandowski@uk-essen.de
+  roles: ['shk']
+  interests: 
+  img: 
+  
+- name: Theresa Bernsmann
+  mail: theresa.bernsmann@uk-essen.de
+  roles: ['shk']
+  interests: 
+  img: 
+  
+- name: Monika Coers
+  mail: monika.coers@uk-essen.de
+  roles: ['shk']
+  interests: 
+  img: 
+  
+- name: Bahadir Eryilmaz
+  mail: bahadir.eryilmaz@uk-essen.de
+  roles: ['shk']
+  interests: 
+  img: 
+  
+- name: Hannah Louisa Göke
+  mail: hannahlouisa.goeke@uk-essen.de
+  roles: ['shk']
+  interests: 
+  img: 
+  
+- name: Lisa Meißner
+  mail: lisa.meissner@uk-essen.de
+  roles: ['shk']
+  interests: 
+  img: 
+  
+- name: Justin Roschlak
+  mail: justinjoel.roschlak@uk-essen.de
+  roles: ['shk']
+  interests: 
+  img: 
+
+- name: Meike Nauta
+  roles: ['alumnus']
+  interests: ['Explainable AI', 'Computer Vision']
+  img: Nauta-Meike.jpg

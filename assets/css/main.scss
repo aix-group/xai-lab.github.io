@@ -1,0 +1,44 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+.person-img {
+  width:150px;
+  height:150px;
+  object-fit:cover;
+  float:left;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+}
+
+.person-wrapper {
+  width:100%;
+  clear:both;
+  display: -webkit-flex; /* Safari */     
+  display: flex; /* Standard syntax */
+} 
+
+.person-image-container.left {
+  width:30%; 
+  float:left; 
+  display: flex;
+  justify-content: center;
+  padding-right:10px;
+}
+
+.person-image-container.right {
+  width:70%; 
+  float:right;
+}
+
+.email {
+ color:#9ab39b;
+ font-weight: lighter;
+ text-decoration: none;
+}  

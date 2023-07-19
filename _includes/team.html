@@ -1,0 +1,55 @@
+<!--
+Note: When changing, be careful with indentations - if elements are rendered as code blocks
+there might be something wrong with settings in the editor
+-->
+{% assign team_rg = site.data.people %}
+{% assign team_by_role = team_rg | group_by_exp: "item", "item.roles | first" %}
+
+{% for role in team_by_role %}
+{% case role.name %}
+{% when "postdoc" %}
+<h3>Researchers</h3>
+{% when "phd" %}
+<h3>Research Assistants</h3>
+{% when "extphd" %}
+<h3>External PhD Candidates</h3>
+{% when "shk" %}
+<h3>Student Assistants</h3>
+{% when "alumnus" %}
+<h3>Alumni</h3>
+{% endcase %}
+  {% for person in role.items %}
+    {% if role.name == "head" %}
+<h3 id="head">Head of Group</h3>
+    {% endif %}
+    {% if role.name == "admin" %}
+<h3 id="admin">Administration</h3>
+    {% endif %}
+<div class="person-wrapper">
+  {% if person.img %}
+  <div class="person-image-container left">
+  <img class="person-img" src="{{ "assets/images/people/" | append: person.img | relative_url}}" alt="Photo of {{ person.name }}" />
+  </div>
+  {% endif %}
+  <div class="person-image-container right">
+  <h5>{{ person.title}} {{ person.name }}{% if role.name == "phd" %}, Ph.D. Candidate{% endif %}{% if person.position-special %}, {{ person.position-special }}{% endif %}</h5>
+  <p>
+       {% if person.mail %}
+         {% if person.mail.first %}
+           {% for m in person.mail %}
+             <a class="email" href="mailto:{{ m }}">{{ m }}</a>{% unless forloop.last %}, {% endunless %}
+           {% endfor %}
+           <br />
+         {% else %}
+           <a class="email" href="mailto:{{ person.mail }}">{{ person.mail }}</a><br />
+         {% endif %}
+       {% endif %}
+       {% if person.phone %}
+         Phone: +{{ person.phone }} <br />
+       {% endif %}
+       {% if person.interests.size > 0 %}
+         Interests: {{ person.interests | array_to_sentence_string }}
+       {% endif %}
+    </p></div></div>
+ {% endfor %}
+{% endfor %}
