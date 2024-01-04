@@ -81,14 +81,15 @@ The site is built with [jekyll](https://jekyllrb.com), [scholar](https://github.
 `/assets/main.scss` loads the main theme configuration and holds custom adaptations.
 
 ## Todo
-- [ ] add author version PDF support
-- [ ] improve color scheme
-- [ ] add publication for team members -> link to biliography with that filter
+- [ ] add author version PDF support (kind of vanished..) in bibliography
+- [ ] Improve color scheme
+- [ ] add publication for team members -> link to bibliography with that filter
 - [ ] update images for all team members
 - [ ] add propper logo
 - [ ] add favicon
-- [ ] check and adapt properties of persons
+- [x] check and adapt properties of persons
 - [ ] remove template content (posts and such)
 - [ ] limit number of authors per bibentry (10? SIGIR forum paper is quite long)
-- [X] add impressum
+- [x] add impressum
 - [x] fix bibtex encoding errors e.g., "Fr öbe"
+- [ ] add support to remove item numbers in bibliography (cf. blog post about Meike's cvpr paper)

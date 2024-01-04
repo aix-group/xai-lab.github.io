@@ -48,10 +48,22 @@
  ol {list-style-type:none;}
 }
 
-
 .search__toggle {
   color: #9ab39b;
 }
 .search__toggle:hover {
   color: #9ab39b;
+}
+
+
+a:visited {
+    color: #9ab39b;
+}
+
+a {
+    color: #9ab39b;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
 }

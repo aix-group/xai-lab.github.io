@@ -1,4 +1,5 @@
 title: Chair for Artificial Intelligence
+logo: "/assets/images/xai-logo.png"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Chair for Artificial Intelligence at the Philipps-University Marburg and Hessian.ai.
@@ -42,9 +43,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "AI | MR"
-  avatar : "/assets/images/aimr-logo.jpg"
-  bio    : "Chair for Artificial Intelligence at University of Marburg and the Hessian Center for Artificial Intelligence"
+#  name   : "Christin Seifert"
+#  avatar : "/assets/images/people/Seifert-Christin.jpg"
+#  bio    : ""
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
