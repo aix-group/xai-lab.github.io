@@ -8,23 +8,23 @@ there might be something wrong with settings in the editor
 {% for role in team_by_role %}
 {% case role.name %}
 {% when "postdoc" %}
-<h3 class="site-heading"> Researchers</h3>
+<h3 class="site-heading accent-color-quartiary"> Researchers</h3>
 {% when "phd" %}
-<h3 class="site-heading">Research Assistants</h3>
+<h3 class="site-heading accent-color-tertiary">PhD Candidates</h3>
 {% when "extphd" %}
-<h3 class="site-heading">External Researchers</h3>
+<h3 class="site-heading accent-color-primary">Associated Researchers</h3>
 {% when "shk" %}
-<h3 class="site-heading">Student Assistants</h3>
+<h3 class="site-heading accent-color-secondary">Student Assistants</h3>
 {% when "alumnus" %}
-<h3 class="site-heading">Alumni</h3>
+<h3 class="site-heading accent-color-quartiary">Alumni</h3>
 {% endcase %}
 
 {% for person in role.items %}
     {% if role.name == "head" %}
-<h3 class="site-heading">Head of Group</h3>
+<h3 class="site-heading accent-color-primary">Head of Group</h3>
     {% endif %}
     {% if role.name == "admin" %} 
-<h3 class="site-heading accent-color-primary">Administration</h3>
+<h3 class="site-heading accent-color-secondary">Administration</h3>
     {% endif %}
 <div class="person-wrapper">
   {% if person.img %}

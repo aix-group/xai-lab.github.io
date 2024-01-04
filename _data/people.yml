@@ -46,15 +46,22 @@
   interests: ['Natural Language Processing']
   img: Youssef-Paul.jpg
 
-
+- name: Shreyasi Pathak
+  title: M.Sc.
+  mail: ['shreyasi.pathak@utwente.nl']
+  roles: ['phd']
+  interests:  ['Explainable AI', 'Machine Learning for Medicine']
+  img: Pathak-Shreyasi.jpg
+  organisation: University of Twente
 
 - name: Chakraborty Tanmay
   title: M.Sc.
   mail: tanmay.chakraborty@continental-corporation.com
-  roles: ['extphd']
+  roles: ['phd']
   interests: ['Explainable AI', 'Bayesian Optimization']
   img: Chakraborty-Tanmay.jpg
   organisation: Continental AG
+
 
 - name: Osman Koras
   title: M.Sc.
@@ -72,14 +79,6 @@
   interests: ['Explainable AI', 'Machine Learning for Medicine']
   img: Li-Meijie.jpg
   organisation: University of Duisburg-Essen, RTG WisperMed
-
-- name: Shreyasi Pathak
-  title: M.Sc.
-  mail: ['shreyasi.pathak@utwente.nl']
-  roles: ['extphd']
-  interests:  ['Explainable AI', 'Machine Learning for Medicine']
-  img: Pathak-Shreyasi.jpg
-  organisation: University of Twente
 
 
 - name: Jan Trienes
