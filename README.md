@@ -1,6 +1,4 @@
-This is the web site AI group in Marburg. AI-MR. 
-
-This website is based on the minimal-mistakes jekyll theme. 
+This is the web site of the XAI group in Marburg.  This website is based on the minimal-mistakes jekyll theme. 
 
 # Editors
 > :warning: **Make sure you are on the `main`-branch**
@@ -59,8 +57,6 @@ Simply delete the corresponding entry from the file.
 #### Modify Member
 Edit the entry as needed.
 
-
-
 <h3 id="publications">Manage Publications</h3>
 
 Replace `references.bib` at [`/_bibliography`](/_bibliography) with your latest bibtex list of publications.
@@ -75,21 +71,19 @@ The site is built with [jekyll](https://jekyllrb.com), [scholar](https://github.
 3. Checkout repo, install dependencies in the repo with `bundle install`
 4. Run with `bundle exec jekyll serve`, the site is accessible at "http://127.0.0.1:4000/" (note the trailing `/`)
 
-
-
 ## Theme customization
 `/assets/main.scss` loads the main theme configuration and holds custom adaptations.
 
 ## Todo
-- [ ] add author version PDF support (kind of vanished..) in bibliography
-- [ ] Improve color scheme
-- [ ] add publication for team members -> link to bibliography with that filter
+- [ ] bib: add publication for team members -> link to bibliography with that filter
+- [ ] bib: add author version PDF support (kind of vanished from ikim example ..) 
+- [ ] bib: limit number of authors per bibentry (10? SIGIR forum paper is quite long)
+- [ ] bib: add support to remove item numbers in bibliography (cf. blog post about Meike's cvpr paper)
 - [ ] update images for all team members
-- [ ] add propper logo
-- [ ] add favicon
-- [x] check and adapt properties of persons
-- [ ] remove template content (posts and such)
-- [ ] limit number of authors per bibentry (10? SIGIR forum paper is quite long)
-- [x] add impressum
-- [x] fix bibtex encoding errors e.g., "Fr öbe"
-- [ ] add support to remove item numbers in bibliography (cf. blog post about Meike's cvpr paper)
+- [ ] change default font to roboto (Apache Licence Google Font, need to install it)
+- [ ] news: Paper Paul
+- [ ] news: Paper Osman
+- [ ] news: Paper Bach
+- [ ] news: SIGIR forum article
+
+

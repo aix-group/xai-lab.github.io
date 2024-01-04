@@ -3,6 +3,8 @@ main:
     url: /posts/
   - title: "Team"
     url: /team/
+  - title: "Research"
+    url: /research/
   - title: "Publications"
     url: /publications/
   
