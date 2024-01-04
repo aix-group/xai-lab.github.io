@@ -7,6 +7,7 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+/* for team page and person image */
 .person-img {
   width:150px;
   height:150px;
@@ -30,40 +31,117 @@
   display: flex;
   justify-content: center;
   padding-right:10px;
+  padding-bottom:10px;
+  padding-top:10px;
 }
 
 .person-image-container.right {
   width:70%; 
   float:right;
+  padding-bottom:10px;
+  padding-top:20px;
 }
 
 .email {
- color:#9ab39b;
+ color:#7a46eb;
  font-weight: lighter;
  text-decoration: none;
 }  
 
+/* for publications */
 .bib {
  font-size: 0.8rem; 
  ol {list-style-type:none;}
 }
 
+/* adjust color appearance to logo*/
 .search__toggle {
-  color: #9ab39b;
+  color: #7a46eb;
 }
 .search__toggle:hover {
-  color: #9ab39b;
+  color: #7a46eb;
 }
 
-
 a:visited {
-    color: #9ab39b;
+    color: #7a46eb;
 }
 
 a {
-    color: #9ab39b;
+    color: #7a46eb;
+}
+
+.author__urls a {
+  color: #7a46eb;
 }
 
 a:-webkit-any-link {
     text-decoration: none;
+}
+
+.greedy-nav .visible-links a:before {
+  background: #7a46eb;
+}
+
+/* adapt font sizes */
+
+html {
+  /* apply a natural box layout model to all elements */
+  box-sizing: border-box;
+  background-color: #fff;
+  font-size: 10px; 
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+@media (min-width: 48em) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (min-width: 64em) {
+  html {
+    font-size: 14px; 
+  }
+}
+@media (min-width: 80em) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* adjust logo size */
+.site-logo img {
+  max-height: 3rem;
+}
+
+/* define site headings with XAI logo elements */
+.site-heading {  
+}
+
+.site-heading::before{
+  content: '';
+  /*background:url('/assets/images/arrow-purple.svg');*/
+  background-color: red;
+  background-size: 0.6em 0.8em; 
+  background-repeat: no-repeat;
+  -webkit-mask-image: url(/assets/images/arrow-purple.svg);
+  -webkit-mask-size:contain;
+  -webkit-mask-position:center;
+  -webkit-mask-repeat:no-repeat;
+  mask-image: url(/assets/images/arrow-purple.svg); /*for backward compatibility*/
+  mask-size: auto;
+  mask-position: center;
+  mask-repeat: no-repeat;
+  width: 0.6em /* width of the image */;
+  height: 0.8em /* height of the image */;
+  display: inline-block;
+  top: 8px;
+  margin-right: 0.5em;
+}
+
+.site-heading::before .accent-color-primary{
+  background-color: green;
+}
+
+.accent-color-secondary{
+  background-color: red;
 }
