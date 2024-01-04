@@ -22,8 +22,15 @@
   title: M.Sc.
   mail: ['vanbach.nguyen@uni-marburg.de']
   roles: ['phd']
-  interests: ['Natural Language Processing']
+  interests: ['Natural Language Processing', 'Conversational Agents', 'Explainable AI']
   img: Nguyen-Bach-Van.jpg
+
+- name: Phuong Quynh Le
+  title: M.Sc.
+  mail: ['phuongquynh.le@uni-due.de']
+  roles: ['phd']
+  interests: ['Explainable AI', ' Machine Learning', 'Computer Vision']
+  img: Phuong-Quynh-Le.jpg
 
 - name: Olufunke Sarumi
   title: M.Sc.
@@ -39,9 +46,11 @@
   interests: ['Natural Language Processing']
   img: Youssef-Paul.jpg
 
+
+
 - name: Chakraborty Tanmay
   title: M.Sc.
-  mail: 
+  mail: tanmay.chakraborty@continental-corporation.com
   roles: ['extphd']
   interests: ['Explainable AI', 'Bayesian Optimization']
   img: Chakraborty-Tanmay.jpg
@@ -54,14 +63,7 @@
   interests: ['Natural Language Processing', 'Faithfulness']
   img: Koras-Osman.jpg
   organisation: University of Duisburg-Essen
-  
-- name: Phuong Quynh Le
-  title: M.Sc.
-  mail: ['phuongquynh.le@uni-due.de']
-  roles: ['extphd']
-  interests: ['Explainable AI', ' Machine Learning']
-  img: Phuong-Quynh-Le.jpg
-  organisation: University of Duisburg-Essen
+
 
 - name: Meijie Li
   title: M.Sc.
@@ -88,53 +90,17 @@
   img: Trienes-Jan.jpg
   organisation: University of Duisburg-Essen
 
-- name: Celina Bandowski
-  mail: celina.bandowski@uk-essen.de
+- name: Ali Kholmovaia
+  mail: kholmovaia@students.uni-marburg.de
   roles: ['shk']
-  interests: 
-  img: 
-  
-- name: Theresa Bernsmann
-  mail: theresa.bernsmann@uk-essen.de
-  roles: ['shk']
-  interests: 
-  img: 
-  
-- name: Monika Coers
-  mail: monika.coers@uk-essen.de
-  roles: ['shk']
-  interests: 
-  img: 
-  
-- name: Bahadir Eryilmaz
-  mail: bahadir.eryilmaz@uk-essen.de
-  roles: ['shk']
-  interests: 
-  img: 
-  
-- name: Hannah Louisa Göke
-  mail: hannahlouisa.goeke@uk-essen.de
-  roles: ['shk']
-  interests: 
-  img: 
-  
-- name: Lisa Meißner
-  mail: lisa.meissner@uk-essen.de
-  roles: ['shk']
-  interests: 
-  img: 
-  
-- name: Justin Roschlak
-  mail: justinjoel.roschlak@uk-essen.de
-  roles: ['shk']
-  interests: 
+  interests: ['Natural Language Processing','Conversational Agents']
   img: 
 
 - name: Dr. Meike Nauta
   roles: ['alumnus']
   interests: ['Explainable AI', 'Computer Vision']
   img: Nauta-Meike.jpg
-  current: 
+  current: Senior Data Sciencist at Datacation
 
 - name: Dr. Sultan Imangaliyev
   roles: ['alumnus']
