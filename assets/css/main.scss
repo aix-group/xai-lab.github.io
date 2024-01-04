@@ -120,9 +120,9 @@ html {
 .site-heading::before{
   content: '';
   /*background:url('/assets/images/arrow-purple.svg');*/
-  background-color: red;
   background-size: 0.6em 0.8em; 
   background-repeat: no-repeat;
+  background-color: #7a46eb;
   -webkit-mask-image: url(/assets/images/arrow-purple.svg);
   -webkit-mask-size:contain;
   -webkit-mask-position:center;
@@ -138,10 +138,18 @@ html {
   margin-right: 0.5em;
 }
 
-.site-heading::before .accent-color-primary{
-  background-color: green;
+.site-heading.accent-color-primary::before {
+  background-color: #7a46eb;
 }
 
-.accent-color-secondary{
-  background-color: red;
+.site-heading.accent-color-secondary::before {
+  background-color: #fe3564;
+}
+
+.site-heading.accent-color-tertiary::before {
+  background-color: #8bd51f;
+}
+
+.site-heading.accent-color-quartiary::before {
+  background-color: #fcc800;
 }
