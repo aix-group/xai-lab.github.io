@@ -9,30 +9,36 @@
 
 /* for team page and person image */
 .person-img {
-  width:150px;
-  height:150px;
+  width:10em;
+  height:10em;
+  min-width: 10em;
+  min-height: 10em;
   object-fit:cover;
   float:left;
   border-radius: 50%;
   margin: auto;
   display: block;
+  align-self: start;
 }
 
 .person-wrapper {
-  width:100%;
+  width:inherit;
   clear:both;
   display: -webkit-flex; /* Safari */     
   display: flex; /* Standard syntax */
+  flex-wrap: wrap;
 } 
 
 .person-image-container.left {
-  width:30%; 
+  width:10em; 
   float:left; 
   display: flex;
-  justify-content: center;
-  padding-right:10px;
-  padding-bottom:10px;
-  padding-top:10px;
+  padding-bottom:1em;
+  padding-top:1em;
+  display: flex;
+  flex-direction: column;
+  /*flex: 1 1 50%;*/
+  justify-content: flex-end;
 }
 
 .person-image-container.right {
@@ -40,6 +46,22 @@
   float:right;
   padding-bottom:10px;
   padding-top:20px;
+  padding-left:1em;
+  display: flex;
+  flex-direction: column;
+  /*flex: 1 1 50%;*/
+  justify-content: flex-end;
+  min-width: 10em;
+}
+
+.person-image-container:last-child {
+  align-self: flex-start;
+}
+
+@media (max-width: 400px) {
+  .person-image-container {
+      flex: 1 1 100%;
+  }
 }
 
 .email {
@@ -152,4 +174,28 @@ html {
 
 .site-heading.accent-color-quartiary::before {
   background-color: #fcc800;
+}
+
+@media (min-width: 1em) { /** social media information in a wrapping container**/
+  .author__urls-wrapper {
+    display: none;
+  }
+}
+
+@media (min-width: 48em) {
+  .author__urls-wrapper {
+    display: block;
+  }
+}
+
+@media (min-width: 1em) { /** adress, contact information **/
+  .author__content {
+    display: none;
+  }
+}
+
+@media (min-width: 48em) {
+  .author__content {
+    display: block;
+  }
 }

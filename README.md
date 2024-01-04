@@ -85,5 +85,7 @@ The site is built with [jekyll](https://jekyllrb.com), [scholar](https://github.
 - [ ] news: Paper Osman
 - [ ] news: Paper Bach
 - [ ] news: SIGIR forum article
+- [ ] Don't allow bots to crawl https://platform.openai.com/docs/gptbot
+
 
 

@@ -47,7 +47,7 @@ there might be something wrong with settings in the editor
          {% endif %}
        {% endif %}
        {% if person.phone %}
-         Phone: +{{ person.phone }} <br />
+         Phone: {{ person.phone }} <br />
        {% endif %}
        {% if person.interests.size > 0 %}
          Topics: {{ person.interests | array_to_sentence_string }} <br />
@@ -55,7 +55,7 @@ there might be something wrong with settings in the editor
        {% if person.current %}
          Current Position: {{ person.current }}<br />
        {% endif %}
-       {% if role.name == "extphd" %}
+       {% if person.organisation %}
         Organisation: {{ person.organisation }}<br />
        {% endif %}
     </p></div></div>
