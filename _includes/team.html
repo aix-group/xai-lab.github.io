@@ -52,6 +52,10 @@ there might be something wrong with settings in the editor
        {% if person.interests.size > 0 %}
          Topics: {{ person.interests | array_to_sentence_string }} <br />
        {% endif %}
+       {% if person.bib %}
+       <br/>
+       <a href="../../publications/index.html#{{ person.bib }}">Publications</a> <br />
+       {% endif %}
        {% if person.current %}
          Current Position: {{ person.current }}<br />
        {% endif %}

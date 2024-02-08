@@ -23,6 +23,6 @@ Our prototypes correlate with ground-truth object parts. With interpretable prot
         allow="autoplay; encrypted-media"
         allowfullscreen></iframe>
 
-
+<div class="bib">
 {% bibliography --cited  %}
-
+</div>

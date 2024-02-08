@@ -3,6 +3,7 @@
   phone: +49 6421 6978383
   roles: ['head']
   img: Seifert-Christin.jpg
+  bib: Seifert
 
 - name: Bopper Katrin 
   mail: bopper@mathematik.uni-marburg.de
@@ -17,6 +18,7 @@
   position-special: Hessian.AI Junior Research Group Lead
   interests: ['Knowledge Integration', 'Natural Language Processing', 'Machine Learning']
   img: Schloetterer-Joerg.jpg
+  bib: Schlötterer
 
 - name: Nguyen Van Bach
   title: M.Sc.
@@ -24,6 +26,7 @@
   roles: ['phd']
   interests: ['Natural Language Processing', 'Conversational Agents', 'Explainable AI']
   img: Nguyen-Bach-Van.jpg
+  bib: Bach
 
 - name: Phuong Quynh Le
   title: M.Sc.
@@ -31,6 +34,7 @@
   roles: ['phd']
   interests: ['Explainable AI', ' Machine Learning', 'Computer Vision']
   img: Phuong-Quynh-Le.jpg
+  bib: Phuong
 
 - name: Olufunke Sarumi
   title: M.Sc.
@@ -38,6 +42,7 @@
   roles: ['phd']
   interests: ['Natural Language Processing']
   img: Sarumi-Olufunke.jpg
+  bib: Sarumi
 
 - name: Paul Youssef
   title: M.Sc.
@@ -45,6 +50,7 @@
   roles: ['phd']
   interests: ['Natural Language Processing']
   img: Youssef-Paul.jpg
+  bib: Youssef
 
 - name: Shreyasi Pathak
   title: M.Sc.
@@ -52,6 +58,7 @@
   roles: ['phd']
   interests:  ['Explainable AI', 'Machine Learning for Medicine']
   img: Pathak-Shreyasi.jpg
+  bib: Pathak
   organisation: University of Twente
 
 - name: Chakraborty Tanmay
@@ -60,6 +67,7 @@
   roles: ['phd']
   interests: ['Explainable AI', 'Bayesian Optimization']
   img: Chakraborty-Tanmay.jpg
+  bib: Chakraborty
   organisation: Continental AG
 
 
@@ -69,6 +77,7 @@
   roles: ['extphd']
   interests: ['Natural Language Processing', 'Faithfulness']
   img: Koras-Osman.jpg
+  bib: Koras
   organisation: University of Duisburg-Essen
 
 
@@ -78,6 +87,7 @@
   roles: ['extphd']
   interests: ['Explainable AI', 'Machine Learning for Medicine']
   img: Li-Meijie.jpg
+  bib: Meijie
   organisation: University of Duisburg-Essen, RTG WisperMed
 
 
@@ -87,6 +97,7 @@
   roles: ['extphd']
   interests: ['Natural Language Processing', 'Information Retrieval']
   img: Trienes-Jan.jpg
+  bib: Trienes
   organisation: University of Duisburg-Essen
 
 - name: Ali Kholmovaia

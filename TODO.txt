@@ -1,2 +1,0 @@
-Don't allow bots to crawl
-https://platform.openai.com/docs/gptbot

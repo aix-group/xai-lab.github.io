@@ -1,9 +1,8 @@
-This is the web site of the XAI group in Marburg.  This website is based on the minimal-mistakes jekyll theme. 
+This is the web ite of the XAI group in Marburg.  This website is based on the minimal-mistakes jekyll theme. 
 
 # Editors
 > :warning: **Make sure you are on the `main`-branch**
 
-![warning-img](img/main-branch.JPG)
 > :information_desk_person: what you see in the online preview is likely not what you get
 
 > :zzz: changes will take a few mins to take effect. Monitor progress at [actions tab](https://github.com/IKIM-Essen/ikim-website/actions)
@@ -74,18 +73,6 @@ The site is built with [jekyll](https://jekyllrb.com), [scholar](https://github.
 ## Theme customization
 `/assets/main.scss` loads the main theme configuration and holds custom adaptations.
 
-## Todo
-- [ ] bib: add publication for team members -> link to bibliography with that filter
-- [ ] bib: add author version PDF support (kind of vanished from ikim example ..) 
-- [ ] bib: limit number of authors per bibentry (10? SIGIR forum paper is quite long)
-- [ ] bib: add support to remove item numbers in bibliography (cf. blog post about Meike's cvpr paper)
-- [ ] update images for all team members
-- [ ] change default font to roboto (Apache Licence Google Font, need to install it)
-- [ ] news: Paper Paul
-- [ ] news: Paper Osman
-- [ ] news: Paper Bach
-- [ ] news: SIGIR forum article
-- [ ] Don't allow bots to crawl https://platform.openai.com/docs/gptbot
 
 
 
