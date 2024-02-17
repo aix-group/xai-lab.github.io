@@ -33,6 +33,6 @@ title: Publications
 </script>
 
 <div class="bib">
-{% bibliography -f references.bib -q @*[year>=2016] --remove_duplicates %}
+{% bibliography -f references.bib  -q !@techreport[year >=2014]  --remove_duplicates  %}
 </div>
 
