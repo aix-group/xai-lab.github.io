@@ -22,6 +22,7 @@
 }
 
 .person-wrapper {
+  margin-left: 1em;
   width:inherit;
   clear:both;
   display: -webkit-flex; /* Safari */     
@@ -70,11 +71,6 @@
  text-decoration: none;
 }  
 
-/* for publications */
-.bib {
- font-size: 0.8rem; 
- ol {list-style-type:none;}
-}
 
 /* adjust color appearance to logo*/
 .search__toggle {
@@ -104,31 +100,6 @@ a:-webkit-any-link {
   background: #7a46eb;
 }
 
-/* adapt font sizes */
-
-html {
-  /* apply a natural box layout model to all elements */
-  box-sizing: border-box;
-  background-color: #fff;
-  font-size: 10px; 
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
-@media (min-width: 48em) {
-  html {
-    font-size: 12px;
-  }
-}
-@media (min-width: 64em) {
-  html {
-    font-size: 14px; 
-  }
-}
-@media (min-width: 80em) {
-  html {
-    font-size: 16px;
-  }
-}
 
 /* adjust logo size */
 .site-logo img {
@@ -150,7 +121,7 @@ html {
   -webkit-mask-position:center;
   -webkit-mask-repeat:no-repeat;
   mask-image: url(/assets/images/arrow-purple.svg); /*for backward compatibility*/
-  mask-size: auto;
+/*  mask-size: auto;*/
   mask-position: center;
   mask-repeat: no-repeat;
   width: 0.6em /* width of the image */;
@@ -198,4 +169,59 @@ html {
   .author__content {
     display: block;
   }
+}
+
+/* type scale */
+$type-size-1: 2.441em !default;
+$type-size-2: 1.953em !default;
+$type-size-3: 1.563em !default;
+$type-size-4: 1.25em !default;
+$type-size-5: 1.1em !default;
+$type-size-6: 0.8em !default;
+$type-size-7: 0.8em !default;
+$type-size-8: 0.625em !default;
+
+/* headline scale */
+$h-size-1: 1.563em !default;
+$h-size-2: 1.25em !default;
+$h-size-3: 1.125em !default;
+$h-size-4: 1.0625em !default;
+$h-size-5: 1.03125em !default;
+$h-size-6: 1em !default;
+
+
+html {
+    /* apply a natural box layout model to all elements */
+    box-sizing: border-box;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size: 10px; // change to whatever
+    
+    @include breakpoint($medium) {
+      font-size: 12px; // change to whatever
+    }
+  
+    @include breakpoint($large) {
+      font-size: 13px; // change to whatever
+    }
+  
+    @include breakpoint($x-large) {
+      font-size: 14px; // change to whatever
+    }
+  }
+
+/* for publications */
+.bib { /*global bib */
+  font-size: 0.8rem; 
+  ol {list-style-type:none;}
+ }
+
+ /*key publications with {% reference %} */
+.key_pubs {
+  list-style-type: none;
+  font-size: 0.8rem;
+}
+.single_pub {
+  padding: 0;
 }
