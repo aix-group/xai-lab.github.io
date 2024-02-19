@@ -104,7 +104,7 @@ tag_archive:
   path: /tags/
 
 
-# CS configure Jekyll plugin
+# configure scholar plugin
 plugins: ['jekyll/scholar']
 scholar:
   source: /_bibliography

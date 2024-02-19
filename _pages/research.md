@@ -7,7 +7,7 @@ Our research mission is to contribute to reliable AI methods for different modal
 Our research areas include:
 - <a href="#topic-xai">Explainable and User-centric AI</a>
 - <a href="#topic-nlp">Natural Language Processing</a>
-- <a href="#topic-ai">Multimodal AI in Applications</a>
+- <a href="#topic-ml">Machine Learning in Applications</a>
 
 
 <h3 id="topic-xai" class="site-heading accent-color-secondary">Explainable and User-centric AI</h3>
@@ -41,10 +41,8 @@ Our research contributes towards **understanding** of capabilities and limitatio
 <li>{% reference Zerhoudi2022_cikm_simiir20framework %}</li>
 </ul>
 
-<h3 id="topic-ai" class="site-heading accent-color-quartiary">Multimodal AI in Applications</h3>
+<h3 id="topic-ml" class="site-heading accent-color-quartiary">Machine Learning in Applications</h3>
 *"Theory and practice sometimes clash. And when that happens, theory loses. Every single time."* (Linus Torvalds, Message to Linux kernel mailing list. 2009-03-25)
-
-
 
 Applying machine learning to practical problems is not straightforward. Many (implicit) assumptions made when developing against benchmark data sets need to be relaxed (e.g., data quality, availability of annotations, available data set size) leading to different research questions. In sensitive domain, special attention has to be paid to legally compliant [compute infrastructures](https://ieeexplore.ieee.org/document/9750320). 
 
