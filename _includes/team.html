@@ -56,6 +56,9 @@ there might be something wrong with settings in the editor
        <br/>
        <a href="../../publications/index.html#{{ person.bib }}">Publications</a> <br />
        {% endif %}
+       {% if person.homepage %}
+       <a href="{{ person.homepage }}">Homepage</a> <br />
+       {% endif %}
        {% if person.current %}
          Current Position: {{ person.current }}<br />
        {% endif %}

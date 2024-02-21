@@ -4,6 +4,7 @@
   roles: ['head']
   img: Seifert-Christin.jpg
   bib: Seifert
+  homepage: /cseifert/
 
 - name: Bopper Katrin 
   mail: bopper@mathematik.uni-marburg.de
@@ -110,10 +111,10 @@
   roles: ['alumnus']
   interests: ['Explainable AI', 'Computer Vision']
   img: Nauta-Meike.jpg
-  current: Senior Data Sciencist at Datacation
+  current: AI Consultant at Datacation (NL)
 
 - name: Dr. Sultan Imangaliyev
   roles: ['alumnus']
   interests: ['Data Science', 'Bioinformatics']
   img: Imangaliyev-Sultan.jpg
-  current: Data Scientiest at In Ovo
+  current: Data Scientist at Centraal Bureau voor de Statistiek (NL)
