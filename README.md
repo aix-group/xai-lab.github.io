@@ -1,4 +1,4 @@
-This is the web ite of the XAI group in Marburg.  This website is based on the minimal-mistakes jekyll theme. 
+This is the website of the xAI group at the University of Marburg.  This website is based on the minimal-mistakes jekyll theme. 
 
 # Editors
 > :warning: **Make sure you are on the `main`-branch**
@@ -10,11 +10,6 @@ This is the web ite of the XAI group in Marburg.  This website is based on the m
 ## Howto...
 - [manage team members](#member)
 - [manage publications](#publications)
-- [add a project](#project)
-- [add a new group](#new)
-- [edit pages](#edit)
-
-
 
 <h3 id="member">Manage Team members</h3>
 
@@ -22,39 +17,32 @@ Members of a group are defined in [`/_data/people.yml`](/_data/people.yml).
 
 Example entry:
 ```
-- name: Hilde Muster
-  mail: hilde.muster@example.org
+- name: Firstname Lastname
+  mail: first.last@example.org
   roles: ['shk']
-  img: Muster-Hilde.jpg
+  img: LastFirst.jpg
 ```
 #### Add Member
 Add a new entry to the end of the file. See the example above or existing entries for proper format.  
 
 Mandatory fields:
-- name - first and last name
-- roles - must be a list, even if it only has a single entry. The first entry **must** be the position in the group. Possible values:
-  * shk - student assistant
-  * phd - PhD candidate
-  * phd - external PhD candidate
-  * postdoc - Researcher
-  * admin - Administration
-  * tech - Technical staff
-  * head - group leader  
-  Additional entries in the roles-list are optional
+- _name:_ first and last name
+- _roles:_ must be a list, even if it only has a single entry. The first entry **must** be the position in the group. Additional entries in the roles-list are optional. Possible values:
+  * _shk_ - student assistant
+  * _phd_ - PhD candidate
+  * _extphd_ - external PhD candidate
+  * _postdoc_ - Postdoctoral Researcher
+  * _admin_ - Administration
+  * _head_ - group leader  
 
 Optional fields:
-- mail - e-mail address, e.g. `hilde.muster@example.org.` Multiple e-mail addresses are possible, must be provided as list, e.g., `['mail1@example.org', 'mail2@example.org']`
-- phone - phone nr, e.g. `+4920112345`
-- title - e.g. `Prof. Dr.`
-- position-special - more details for tech-staff, e.g. `HPC specialist`
-- interests - a list of interests, e.g. `['machine learning', 'coffe']`
-- img - first, upload an image to [`/img/people`](/img/people), then provide the filename here, e.g. `Muster-Hilde.jpg`
+- mail - e-mail address, e.g. `first.last@example.org.` Multiple e-mail addresses are possible, must be provided as list, e.g., `['mail1@example.org', 'mail2@example.org']`
+- _phone:_ phone nr, e.g. `+4920112345`
+- _title:_ e.g. `Prof. Dr.`
+- _position-special:_ more details for e.g., postdocs `Junior Research Group Lead`
+- _interests:_ a list of interests, e.g. `['machine learning', 'coffe']`
+- _img:_ - first, upload an image to [`/img/people`](/img/people), then provide the filename here, e.g. `LastFirst.jpg`
 
-#### Remove Member
-Simply delete the corresponding entry from the file.
-
-#### Modify Member
-Edit the entry as needed.
 
 <h3 id="publications">Manage Publications</h3>
 
