@@ -1,0 +1,60 @@
+name: Build
+
+on:
+  push:
+    branches:
+    - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: ubuntu:latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        ref: main
+    - name: Build
+      run: |
+        apt update && apt upgrade -y
+        apt install -y ruby-full build-essential zlib1g-dev locales
+        echo "en_US UTF-8" > /etc/locale.gen
+        locale-gen en_US.UTF-8
+        export LANG=en_US.UTF-8
+        export LANGUAGE=en_US:en
+        export LC_ALL=en_US.UTF-8
+        bundle3.0
+        jekyll build
+    - name: Change file permissions of build artifacts if necessary
+      run: |
+        chmod -c -R +rX "_site/" | while read line; do
+          echo "::warning title=Invalid file permissions automatically fixed::$line"
+        done
+    - name: Upload the created pages artifact
+      uses: actions/upload-pages-artifact@v2
+      with:
+        name: "github-pages"
+        path: "_site/"
+        retention-days: "1"
+  
+  publish:
+    runs-on: ubuntu-latest
+    needs: build
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v3

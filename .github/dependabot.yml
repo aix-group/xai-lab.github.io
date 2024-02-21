@@ -1,0 +1,23 @@
+# Config for Dependabot updates. 
+
+version: 2
+updates:
+  # Update GitHub actions in workflows
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "chore(dep)"
+    labels:
+      - "github-actions dependencies"
+  # Update ruby dependencies
+  - package-ecosystem: "bundler"
+    directory: "/"
+    vendor: true
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "chore(dep)"
+    labels:
+      - "Ruby dependencies"
