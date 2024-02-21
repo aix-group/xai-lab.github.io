@@ -4,7 +4,7 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
   Chair for Artificial Intelligence at the Philipps-University Marburg and hessian.ai.
 twitter_username: SeifertChristin
-github_username: mcmi-group
+github_username: aix-group
 minimal_mistakes_skin: contrast
 search: true
 # Build settings
@@ -62,7 +62,7 @@ author:
       url: "https://hessian.ai"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mcmi-group"
+      url: "https://github.com/aix-group/"
 
 footer:
   links:
@@ -74,7 +74,7 @@ footer:
       url: "https://hessian.ai"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mcmi-group"
+      url: "https://github.com/aix-group/"
 
 defaults:
   # _posts

@@ -5,7 +5,7 @@ This is the web ite of the XAI group in Marburg.  This website is based on the m
 
 > :information_desk_person: what you see in the online preview is likely not what you get
 
-> :zzz: changes will take a few mins to take effect. Monitor progress at [actions tab](https://github.com/IKIM-Essen/ikim-website/actions)
+> :zzz: changes will take a few mins to take effect. Monitor progress at [actions tab](https://github.com/aix-group/xai-lab-website/actions)
 
 ## Howto...
 - [manage team members](#member)
