@@ -61,8 +61,6 @@ The site is built with [jekyll](https://jekyllrb.com), [scholar](https://github.
 ## Theme customization
 `/assets/main.scss` loads the main theme configuration and holds custom adaptations.
 
-## Test
-
 
 
 
