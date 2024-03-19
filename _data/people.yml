@@ -107,6 +107,10 @@
   interests: ['Natural Language Processing','Conversational Agents']
   img: 
 
+- name: Timofei Ushakov
+  roles: ['shk']
+  interests: ['Reinforcement Learning']
+
 - name: Dr. Meike Nauta
   roles: ['alumnus']
   interests: ['Explainable AI', 'Computer Vision']
