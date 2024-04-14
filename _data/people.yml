@@ -21,6 +21,8 @@
   img: Schloetterer-Joerg.jpg
   bib: Schlötterer
 
+
+
 - name: Nguyen Van Bach
   title: M.Sc.
   mail: ['vanbach.nguyen@uni-marburg.de']
@@ -29,13 +31,15 @@
   img: Nguyen-Bach-Van.jpg
   bib: Bach
 
-- name: Phuong Quynh Le
+- name: Jan Trienes
   title: M.Sc.
-  mail: ['phuongquynh.le@uni-due.de']
+  mail: ['jan.trienes@uni-marburg.de']
   roles: ['phd']
-  interests: ['Explainable AI', ' Machine Learning', 'Computer Vision']
-  img: Phuong-Quynh-Le.jpg
-  bib: Phuong
+  interests: ['Natural Language Processing', 'Information Retrieval']
+  img: Trienes-Jan.jpg
+  bib: Trienes
+  organisation: University of Duisburg-Essen
+
 
 - name: Olufunke Sarumi
   title: M.Sc.
@@ -53,6 +57,14 @@
   img: Youssef-Paul.jpg
   bib: Youssef
 
+- name: Phuong Quynh Le
+  title: M.Sc.
+  mail: ['phuong.le@uni-marburg.de']
+  roles: ['phd']
+  interests: ['Explainable AI', ' Machine Learning', 'Computer Vision']
+  img: Phuong-Quynh-Le.jpg
+  bib: Phuong
+
 - name: Shreyasi Pathak
   title: M.Sc.
   mail: ['shreyasi.pathak@utwente.nl']
@@ -62,7 +74,7 @@
   bib: Pathak
   organisation: University of Twente
 
-- name: Chakraborty Tanmay
+- name: Tanmay Chakraborty
   title: M.Sc.
   mail: tanmay.chakraborty@continental-corporation.com
   roles: ['phd']
@@ -92,24 +104,12 @@
   organisation: University of Duisburg-Essen, RTG WisperMed
 
 
-- name: Jan Trienes
-  title: M.Sc.
-  mail: ['jan.trienes@uni-due.de']
-  roles: ['extphd']
-  interests: ['Natural Language Processing', 'Information Retrieval']
-  img: Trienes-Jan.jpg
-  bib: Trienes
-  organisation: University of Duisburg-Essen
 
-- name: Ali Kholmovaia
-  mail: kholmovaia@students.uni-marburg.de
+
+- name: Anastasiia Derzhanskia
   roles: ['shk']
   interests: ['Natural Language Processing','Conversational Agents']
   img: 
-
-- name: Timofei Ushakov
-  roles: ['shk']
-  interests: ['Reinforcement Learning']
 
 - name: Dr. Meike Nauta
   roles: ['alumnus']
