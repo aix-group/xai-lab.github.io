@@ -3,6 +3,8 @@ permalink: /publications/
 title: Publications
 ---
 
+Showing peer-reviewed publications since 2014. For more recent preprints, see [Google Scholar](https://scholar.google.com/citations?hl=en&user=aK6ZccUAAAAJ).
+
 <input id="filter" type="text" size=20 placeholder="filter..." />
 
 
