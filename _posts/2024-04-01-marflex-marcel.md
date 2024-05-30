@@ -8,7 +8,7 @@ tags:
   - natural language processing
 ---
 
-The [MarFlex initiative](https://quis-hessen.de/en/funding-projects/marflex/) aims to make study programs and processes more flexible to cater for (a more) diverse need of students. 
+The [MarFlex initiative](https://quis-hessen.de/en/funding-projects/marflex/) aims to make study programs and processes more flexible to cater for (more) diverse needs of students. 
 Under this umbrella, we will develop **Marcel** (Marburger Study Accelerator), a chatbot to assist students with their questions around study programs, and help them find the right contact person if the information is not readily and understandably available. The main challenge of Marcel is to generate factually correct output, and being able to abstain from responses. 
 
 ![image-center](/assets/images/posts/2024_project-marcel.png){: .align-center style="width: 90%"}

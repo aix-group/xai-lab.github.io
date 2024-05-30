@@ -6,6 +6,7 @@ categories:
 tags:
   - publication
   - computer vision
+  - explainable AI
 ---
 
 Interpretable methods using prototypical patches help AI explain its reasoning to humans. However, current prototype-based methods may not align with human visual perception, causing non-intuitive interpretations.
