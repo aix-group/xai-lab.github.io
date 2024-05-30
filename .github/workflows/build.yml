@@ -29,7 +29,7 @@ jobs:
         export LANGUAGE=en_US:en
         export LC_ALL=en_US.UTF-8
         gem install bundler
-        gem install
+        bundle install
         jekyll build
     - name: Change file permissions of build artifacts if necessary
       run: |
