@@ -19,12 +19,10 @@ The research emphasizes the potential of retrieval-based approaches, which signi
 <li> {% reference Youssef2024_eacl_factual-coherency-PLMs %}</li>
 </ul>
 
-<!-- <iframe width="320" height="180"
-        src="https://www.youtube.com/embed/GfQQFQ62SLU"
+<iframe width="320" height="180"
+        src="https://aclanthology.org/2024.findings-eacl.155.mp4"
         frameborder="0"
         allow="autoplay; encrypted-media"
         allowfullscreen></iframe>
- -->
-
 
 
