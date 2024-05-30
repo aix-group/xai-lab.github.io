@@ -84,6 +84,24 @@
   organisation: Continental AG
 
 
+- name: Meijie Li
+  title: M.Sc.
+  mail: ['meijie.li@uni-due.de']
+  roles: ['extphd']
+  interests: ['Explainable AI', 'Machine Learning for Medicine']
+  img: Li-Meijie.jpg
+  bib: Meijie
+  organisation: University of Duisburg-Essen, RTG WisperMed
+
+- name: Marcel Wentzien
+  title: M.Sc.
+  roles: ['extphd']
+  mail: Marcel.Wentzien@eah-jena.de
+  Interests: ['Explainable AI', 'Computer Vision']
+  img: Wentzien-Marcel.jpg
+  bib: Wentzien
+  organisation: Ernst-Abbe Hochschule Jena
+
 - name: Osman Koras
   title: M.Sc.
   mail: ['osman.koras@uni-due.de']
@@ -94,14 +112,6 @@
   organisation: University of Duisburg-Essen
 
 
-- name: Meijie Li
-  title: M.Sc.
-  mail: ['meijie.li@uni-due.de']
-  roles: ['extphd']
-  interests: ['Explainable AI', 'Machine Learning for Medicine']
-  img: Li-Meijie.jpg
-  bib: Meijie
-  organisation: University of Duisburg-Essen, RTG WisperMed
 
 
 
