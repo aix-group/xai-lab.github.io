@@ -38,6 +38,7 @@
   interests: ['Natural Language Processing', 'Information Retrieval']
   img: Trienes-Jan.jpg
   bib: Trienes
+  homepage: https://jantrienes.com
 
 - name: Olufunke Sarumi
   title: M.Sc.
@@ -123,15 +124,3 @@
   roles: ['alumnus']
   interests: ['Data Science', 'Bioinformatics']
   current: Data Scientist at Centraal Bureau voor de Statistiek (NL)
-
-- name: Lisa Anita De Santi (Visiting Researcher)
-  roles: ['alumnus']
-  interests:  ['Explainable AI', 'Machine Learning for Medicine']
-
-- name: Ali Kholmovaia (SHK)
-  roles: ['alumnus']
-  interests: ['Natural Language Processing','Conversational Agents']
-
-- name: Timofei Ushakov (SHK)
-  roles: ['alumnus']
-  interests: ['Reinforcement Learning', 'AI Agents']
