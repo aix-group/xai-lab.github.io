@@ -109,24 +109,29 @@
   bib: Koras
   organisation: University of Duisburg-Essen
 
-
-
-
-
-
 - name: Anastasiia Derzhanskia
   roles: ['shk']
   interests: ['Natural Language Processing','Conversational Agents']
-  img: 
 
-- name: Dr. Meike Nauta
+- name: Dr. Meike Nauta (PhD)
   roles: ['alumnus']
   interests: ['Explainable AI', 'Computer Vision']
   img: Nauta-Meike.jpg
   current: AI Consultant at Datacation (NL)
 
-- name: Dr. Sultan Imangaliyev
+- name: Dr. Sultan Imangaliyev (PostDoc)
   roles: ['alumnus']
   interests: ['Data Science', 'Bioinformatics']
-  img: Imangaliyev-Sultan.jpg
   current: Data Scientist at Centraal Bureau voor de Statistiek (NL)
+
+- name: Lisa Anita De Santi (Visiting Researcher)
+  roles: ['alumnus']
+  interests:  ['Explainable AI', 'Machine Learning for Medicine']
+
+- name: Ali Kholmovaia (SHK)
+  roles: ['alumnus']
+  interests: ['Natural Language Processing','Conversational Agents']
+
+- name: Timofei Ushakov (SHK)
+  roles: ['alumnus']
+  interests: ['Reinforcement Learning', 'AI Agents']
