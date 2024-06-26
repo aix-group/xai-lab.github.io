@@ -136,3 +136,7 @@
 - name: Timofei Ushakov (SHK)
   roles: ['alumnus']
   interests: ['Reinforcement Learning', 'AI Agents']
+
+- name: Elmo Primmer
+  roles: ['shk']
+  interests: ['Explainable AI',' Computer Vision']
