@@ -1790,17 +1790,6 @@ Privacy preservation is one of the key objectives of the project.},
   url     = {https://www.mdpi.com/1660-4601/17/16/5707/htm},
 }
 
-@InProceedings{Nauta2020_kdh-ws_interactive-explanations-comatose-patients,
-  author    = {Meike Nauta and Michel J.A.M. {van Putten} and Marleen C. Tjepkema-Cloostermans and Jeroen Peter Bos and Maurice {van Keulen} and Christin Seifert},
-  booktitle = {International Workshop on Knowledge Discovery in Healthcare Data},
-  title     = {Interactive Explanations of Internal Representations of Neural Network Layers: An Exploratory Study on Outcome Prediction of Comatose Patients},
-  year      = {2020},
-  series    = {KDH},
-  volume    = {2675},
-  file      = {:own/Nauta2019_make_causal-discovery_preprint.pdf:PDF},
-  url       = {http://ceur-ws.org/Vol-2675/paper1.pdf},
-}
-
 @InProceedings{Marin2020_ieeesmc_word-prediction-mammography,
   author    = {Mihai David Marin and Elena Mocanu and Christin Seifert},
   booktitle = {Proc. IEEE International Conference on Systems, Man, and Cybernetics},
@@ -2432,6 +2421,52 @@ Privacy preservation is one of the key objectives of the project.},
   publisher = {ELRA and ICCL},
   abstract  = {Recent advances in natural language processing (NLP) can be largely attributed to the advent of pre-trained language models such as BERT and RoBERTa. While these models demonstrate remarkable performance on general datasets, they can struggle in specialized domains such as medicine, where unique domain-specific terminologies, domain-specific abbreviations, and varying document structures are common. This paper explores strategies for adapting these models to domain-specific requirements, primarily through continuous pre-training on domain-specific data. We pre-trained several German medical language models on 2.4B tokens derived from translated public English medical data and 3B tokens of German clinical data. The resulting models were evaluated on various German downstream tasks, including named entity recognition (NER), multi-label classification, and extractive question answering. Our results suggest that models augmented by clinical and translation-based pre-training typically outperform general domain models in medical contexts. We conclude that continuous pre-training has demonstrated the ability to match or even exceed the performance of clinical models trained from scratch. Furthermore, pre-training on clinical data or leveraging translated texts have proven to be reliable methods for domain adaptation in medical NLP tasks.},
   url       = {https://aclanthology.org/2024.lrec-main.324},
+}
+
+@InProceedings{Nauta2020_kdh-ws_interactive-explanations-comatose-patients,
+  author    = {Meike Nauta and Michel J.A.M. {van Putten} and Marleen C. Tjepkema-Cloostermans and Jeroen Peter Bos and Maurice {van Keulen} and Christin Seifert},
+  booktitle = {International Workshop on Knowledge Discovery in Healthcare Data},
+  title     = {Interactive Explanations of Internal Representations of Neural Network Layers: An Exploratory Study on Outcome Prediction of Comatose Patients},
+  year      = {2020},
+  series    = {KDH},
+  volume    = {2675},
+  file      = {:own/Nauta2019_make_causal-discovery_preprint.pdf:PDF},
+  url       = {http://ceur-ws.org/Vol-2675/paper1.pdf},
+}
+
+@InProceedings{Trienes:2024_acl_infolossqa,
+  author    = {Trienes, Jan and Joseph, Sebastian and Schl{\"o}tterer, J{\"o}rg and Seifert, Christin and Lo, Kyle and Xu, Wei and Wallace, Byron C. and Li, Junyi Jessy},
+  booktitle = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics},
+  title     = {{InfoLossQA}: {C}haracterizing and Recovering Information Loss in Text Simplification},
+  year      = {2024},
+}
+
+@InProceedings{Pathak2024_xaiw_prototypes-breast-cancer-analysis,
+  author    = {Pathak, Shreyasi and Schl{\"o}tterer, J{\"o}rg and Veltman, Jeroen and Geerdink, Jeroen and van Keulen, Maurice and Seifert, Christin},
+  booktitle = {Explainable Artificial Intelligence},
+  title     = {Prototype-Based Interpretable Breast Cancer Prediction Models: Analysis and Challenges},
+  year      = {2024},
+  address   = {Cham},
+  editor    = {Longo, Luca and Lapuschkin, Sebastian and Seifert, Christin},
+  pages     = {21--42},
+  publisher = {Springer Nature Switzerland},
+  abstract  = {Deep learning models have achieved high performance in medical applications, however, their adoption in clinical practice is hindered due to their black-box nature. Using explainable AI (XAI) in high-stake medical decisions could increase their usability in clinical settings. Self-explainable models, like prototype-based models, can be especially beneficial as they are interpretable by design. However, if the learnt prototypes are of low quality then the prototype-based models are as good as black-box. Having high quality prototypes is a pre-requisite for a truly interpretable model. In this work, we propose a prototype evaluation framework for Coherence (PEF-Coh) for quantitatively evaluating the quality of the prototypes based on domain knowledge. We show the use of PEF-Coh in the context of breast cancer prediction using mammography. Existing works on prototype-based models on breast cancer prediction using mammography have focused on improving the classification performance of prototype-based models compared to black-box models and have evaluated prototype quality through anecdotal evidence. We are the first to go beyond anecdotal evidence and evaluate the quality of the mammography prototypes systematically using our PEF-Coh. Specifically, we apply three state-of-the-art prototype-based models, ProtoPNet, BRAIxProtoPNet++ and PIP-Net on mammography images for breast cancer prediction and evaluate these models w.r.t. i) classification performance, and ii) quality of the prototypes, on three public datasets. Our results show that prototype-based models are competitive with black-box models in terms of classification performance, and achieve a higher score in detecting ROIs. However, the quality of the prototypes are not yet sufficient and can be improved in aspects of relevance, purity and learning a variety of prototypes. We call the XAI community to systematically evaluate the quality of the prototypes to check their true usability in high stake decisions and improve such models further.},
+  doi       = {10.1007/978-3-031-63787-2_2},
+  isbn      = {978-3-031-63787-2},
+}
+
+@InProceedings{Beld2024_xaiw_feature-importance-multimodal-clinical,
+  author    = {van de Beld, Jorn-Jan and Pathak, Shreyasi and Geerdink, Jeroen and Hegeman, Johannes H. and Seifert, Christin},
+  booktitle = {Explainable Artificial Intelligence},
+  title     = {Feature Importance to Explain Multimodal Prediction Models. A Clinical Use Case},
+  year      = {2024},
+  address   = {Cham},
+  editor    = {Longo, Luca and Lapuschkin, Sebastian and Seifert, Christin},
+  pages     = {84--101},
+  publisher = {Springer Nature Switzerland},
+  abstract  = {Surgery to treat elderly hip fracture patients may cause complications that can lead to early mortality. An early warning system for complications could provoke clinicians to monitor high-risk patients more carefully and address potential complications early, or inform the patient. In this work, we develop a multimodal deep-learning model for post-operative mortality prediction using pre-operative and per-operative data from elderly hip fracture patients. Specifically, we include static patient data, hip and chest images before surgery in pre-operative data, vital signals, and medications administered during surgery in per-operative data. We extract features from image modalities using ResNet and from vital signals using LSTM. Explainable model outcomes are essential for clinical applicability, therefore we compute Shapley values to explain the predictions of our multimodal black box model. We find that i) Shapley values can be used to estimate the relative contribution of each modality both locally and globally, and ii) a modified version of the chain rule can be used to propagate Shapley values through a sequence of models supporting interpretable local explanations. Our findings imply that a multimodal combination of black box models can be explained by propagating Shapley values through the model sequence.},
+  doi       = {10.1007/978-3-031-63803-9_5},
+  isbn      = {978-3-031-63803-9},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
