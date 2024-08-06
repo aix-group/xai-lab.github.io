@@ -31,6 +31,14 @@
   img: Nguyen-Bach-Van.jpg
   bib: Bach
 
+- name: Khawla Elhadri
+  title: M.Sc.
+  mail: ['khawla.elhadri@uni-marburg.de']
+  roles: ['phd']
+  interests: ['Machine Learning']
+  img: Elhadri-Khawla.jpg
+  bib: Elhadri
+
 - name: Jan Trienes
   title: M.Sc.
   mail: ['jan.trienes@uni-marburg.de']
