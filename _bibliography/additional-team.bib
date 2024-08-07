@@ -19,3 +19,19 @@
     pages = "1029--1040",
     abstract = "Recent trends in natural language processing research and annotation tasks affirm a paradigm shift from the traditional reliance on a single ground truth to a focus on individual perspectives, particularly in subjective tasks. In scenarios where annotation tasks are meant to encompass diversity, models that solely rely on the majority class labels may inadvertently disregard valuable minority perspectives. This oversight could result in the omission of crucial information and, in a broader context, risk disrupting the balance within larger ecosystems. As the landscape of annotator modeling unfolds with diverse representation techniques, it becomes imperative to investigate their effectiveness with the fine-grained features of the datasets in view. This study systematically explores various annotator modeling techniques and compares their performance across seven corpora. From our findings, we show that the commonly used user token model consistently outperforms more complex models. We introduce a composite embedding approach and show distinct differences in which model performs best as a function of the agreement with a given dataset. Our findings shed light on the relationship between corpus statistics and annotator modeling performance, which informs future work on corpus construction and perspectivist NLP.",
 }
+
+@inproceedings{Nguyen2022_aistats_important_fraud,
+  title = 	 { The Importance of Future Information in Credit Card Fraud Detection },
+  author =       {Bach Nguyen, Van and Ghosh Dastidar, Kanishka and Granitzer, Michael and Siblini, Wissam},
+  booktitle = 	 {Proceedings of The 25th International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {10067--10077},
+  year = 	 {2022},
+  editor = 	 {Camps-Valls, Gustau and Ruiz, Francisco J. R. and Valera, Isabel},
+  volume = 	 {151},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {28--30 Mar},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v151/bach-nguyen22a/bach-nguyen22a.pdf},
+  url = 	 {https://proceedings.mlr.press/v151/bach-nguyen22a.html},
+  abstract = 	 { Fraud detection systems (FDS) mainly perform two tasks: (i) real-time detection while the payment is being processed and (ii) posterior detection to block the card retrospectively and avoid further frauds. Since human verification is often necessary and the payment processing time is limited, the second task manages the largest volume of transactions. In the literature, fraud detection challenges and algorithms performance are widely studied but the very formulation of the problem is never disrupted: it aims at predicting if a transaction is fraudulent based on its characteristics and the past transactions of the cardholder. Yet, in posterior detection, verification often takes days, so new payments on the card become available before a decision is taken. This is our motivation to propose a new paradigm: posterior fraud detection with "future" information. We start by providing evidence of the on-time availability of subsequent transactions, usable as extra context to improve detection. We then design a Bidirectional LSTM to make use of these transactions. On a real-world dataset with over 30 million transactions, it achieves higher performance than a regular LSTM, which is the state-of-the-art classifier for fraud detection that only uses the past context. We also introduce new metrics to show that the proposal catches more frauds, more compromised cards, and based on their earliest frauds. We believe that future works on this new paradigm will have a significant impact on the detection of compromised cards. }
+}
