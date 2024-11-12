@@ -2434,7 +2434,6 @@ Privacy preservation is one of the key objectives of the project.},
   url       = {http://ceur-ws.org/Vol-2675/paper1.pdf},
 }
 
-
 @InProceedings{Pathak2024_xaiw_prototypes-breast-cancer-analysis,
   author    = {Pathak, Shreyasi and Schl{\"o}tterer, J{\"o}rg and Veltman, Jeroen and Geerdink, Jeroen and van Keulen, Maurice and Seifert, Christin},
   booktitle = {Explainable Artificial Intelligence},
@@ -2475,6 +2474,59 @@ Privacy preservation is one of the key objectives of the project.},
   publisher = {Association for Computational Linguistics},
   abstract  = {Text simplification aims to make technical texts more accessible to laypeople but often results in deletion of information and vagueness. This work proposes InfoLossQA, a framework to characterize and recover simplification-induced information loss in form of question-and-answer (QA) pairs. Building on the theory of Questions Under Discussion, the QA pairs are designed to help readers deepen their knowledge of a text. First, we collect a dataset of 1,000 linguist-curated QA pairs derived from 104 LLM simplifications of English medical study abstracts. Our analyses of this data reveal that information loss occurs frequently, and that the QA pairs give a high-level overview of what information was lost. Second, we devise two methods for this task: end-to-end prompting of open-source and commercial language models, and a natural language inference pipeline. With a novel evaluation framework considering the correctness of QA pairs and their linguistic suitability, our expert evaluation reveals that models struggle to reliably identify information loss and applying similar standards as humans at what constitutes information loss.},
   url       = {https://aclanthology.org/2024.acl-long.234},
+}
+
+@Article{Salvador2024_jco_survival-prediction,
+  author   = {Salvador Comino, Maria Rosa and Youssef, Paul and Heinzelmann, Anna and Bernhardt, Florian and Seifert, Christin and Tewes, Mitra},
+  journal  = {JCO Clinical Cancer Informatics},
+  title    = {Machine Learning–Based Prediction of 1-Year Survival Using Subjective and Objective Parameters in Patients With Cancer},
+  year     = {2024},
+  note     = {PMID: 39197123},
+  number   = {8},
+  pages    = {e2400041},
+  abstract = {PURPOSEPalliative care is recommended for patients with cancer with a life expectancy of <12 months. Machine learning (ML) techniques can help in predicting survival outcomes among patients with cancer and may help distinguish who benefits the most from palliative care support. We aim to explore the importance of several objective and subjective self-reported variables. Subjective variables were collected through electronic psycho-oncologic and palliative care self-assessment screenings. We used these variables to predict 1-year mortality.MATERIALS AND METHODSBetween April 1, 2020, and March 31, 2021, a total of 265 patients with advanced cancer completed a patient-reported outcome tool. We documented objective and subjective variables collected from electronic health records, self-reported subjective variables, and all clinical variables combined. We used logistic regression (LR), 20-fold cross-validation, decision trees, and random forests to predict 1-year mortality. We analyzed the receiver operating characteristic (ROC) curve—AUC, the precision-recall curve—AUC (PR-AUC)—and the feature importance of the ML models.RESULTSThe performance of clinical nonpatient variables in predictions (LR reaches 0.81 [ROC-AUC] and 0.72 [F1 score]) are much more predictive than that of subjective patient-reported variables (LR reaches 0.55 [ROC-AUC] and 0.52 [F1 score]).CONCLUSIONThe results show that objective variables used in this study are much more predictive than subjective patient-reported variables, which measure subjective burden. These findings indicate that subjective burden cannot be reliably used to predict survival. Further research is needed to clarify the role of self-reported patient burden and mortality prediction using ML.},
+  doi      = {10.1200/CCI.24.00041},
+  eprint   = {https://doi.org/10.1200/CCI.24.00041},
+  url      = {https://doi.org/10.1200/CCI.24.00041},
+}
+
+@InProceedings{DeSanti2024_xailbr_pip3d-alzheimer,
+  author    = {Lisa Anita {De Santi} and J\"{o}rg Schl\"{o}tterer and Meike Nauta and Vincenzo Positano and Christin Seifert},
+  booktitle = {Joint Proceedings of the xAI 2024 Late-breaking Work, Demos and Doctoral Consortium},
+  title     = {Patch-based Intuitive Multimodal Prototypes Network(PIMPNet) for Alzheimer’s Disease classification},
+  year      = {2024},
+  file      = {:own-pdf/DeSanti2024_xailbr_pip3d-alzheimer_proc.pdf:PDF},
+  url       = {https://ceur-ws.org/Vol-3793/paper_10.pdf},
+}
+
+@InProceedings{DeSanti2024_miccaiws_pip3d-alzheimer,
+  author    = {Lisa Anita {De Santi} and J\"{o}rg Schl\"{o}tterer and Michael Scheschenja and Joel Wessendorf and Meike Nauta and Vincenzo Positano and Christin Seifert},
+  booktitle = {MICCAI Workshop on Interpretability of Machine Intelligence in Medical Image Computing},
+  title     = {PIPNet3D:Interpretable Detection of Alzheimerin MRI Scans},
+  year      = {2024},
+}
+
+@InProceedings{Nguyen2024_emnlp_llms-for-generating-counterfactuals,
+  author    = {Nguyen, Van Bach and Youssef, Paul and Seifert, Christin and Schl{\"o}tterer, J{\"o}rg},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2024},
+  title     = {{LLM}s for Generating and Evaluating Counterfactuals: A Comprehensive Study},
+  year      = {2024},
+  address   = {Miami, Florida, USA},
+  editor    = {Al-Onaizan, Yaser and Bansal, Mohit and Chen, Yun-Nung},
+  month     = nov,
+  pages     = {14809--14824},
+  publisher = {Association for Computational Linguistics},
+  abstract  = {As NLP models become more complex, understanding their decisions becomes more crucial. Counterfactuals (CFs), where minimal changes to inputs flip a model{'}s prediction, offer a way to explain these models. While Large Language Models (LLMs) have shown remarkable performance in NLP tasks, their efficacy in generating high-quality CFs remains uncertain. This work fills this gap by investigating how well LLMs generate CFs for three tasks. We conduct a comprehensive comparison of several common LLMs, and evaluate their CFs, assessing both intrinsic metrics, and the impact of these CFs on data augmentation. Moreover, we analyze differences between human and LLM-generated CFs, providing insights for future research directions. Our results show that LLMs generate fluent CFs, but struggle to keep the induced changes minimal. Generating CFs for Sentiment Analysis (SA) is less challenging than NLI and Hate Speech (HS) where LLMs show weaknesses in generating CFs that flip the original label. This also reflects on the data augmentation performance, where we observe a large gap between augmenting with human and LLM CFs. Furthermore, we evaluate LLMs{'} ability to assess CFs in a mislabelled data setting, and show that they have a strong bias towards agreeing with the provided labels. GPT4 is more robust against this bias, but it shows strong preference to its own generations. Our analysis suggests that safety training is causing GPT4 to prefer its generations, since these generations do not contain harmful content. Our findings reveal several limitations and point to potential future work directions.},
+  url       = {https://aclanthology.org/2024.findings-emnlp.870},
+}
+
+@InProceedings{Eryilmaz2024_cogmi_reproducibilty-cuda-randomness,
+  author    = {Bahadır Eryılmaz and Osman Alperen Koraş and Jörg Schlötterer and Christin Seifert},
+  booktitle = {International Conference on Cognitive Machine Intelligence (CogMI)},
+  title     = {Investigating the Impact of Randomness on Reproducibility in Computer Vision: A Study on Applications in Civil Engineering and Medicine},
+  year      = {2024},
+  doi       = {10.1109/CogMI58952.2023.00018},
+  file      = {:own-pdf/Eryilmaz2024_cogmi_reproducibilty-cuda-randomness_arxive.pdf:PDF},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
